@@ -22,6 +22,8 @@ Below are the six tasks that were completed as part of this SQL project:
       "provenance": [],
       "toc_visible": true,
       "include_colab_link": true
+ },
+ 
 [https://github.com/humairaaryantik-portofolio/humairaaryantik.github.io/blob/7ca93183b83ce295dfad7c240a74105ba6d77366/TABLE-TABLE.sql]
 
 ### Result
