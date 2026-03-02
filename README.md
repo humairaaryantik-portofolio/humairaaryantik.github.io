@@ -164,3 +164,39 @@ JOIN purchase_product pi
 ON p.id = pi.product_id;
 ```
 Or See problem 2 [in Here](https://github.com/humairaaryantik-portofolio/humairaaryantik.github.io/blob/1ebff35b2f6938049db5510b4724dc60c2e05746/PROJECT_UDEMY/TASK%202.sql)
+
+3️⃣ TASK 3 : Select credit card, and product name
+```
+SELECT u.credit_card, pro.product_name 
+FROM user u 
+JOIN purchase p
+ON p.fk_purchase_user = u.id 
+
+JOIN purchase_product pp
+ON pp.purchase_id = p.id
+
+JOIN product pro 
+ON pro.id = pp.product_id; 
+```
+Or See problem 3 [in Here](https://github.com/humairaaryantik-portofolio/humairaaryantik.github.io/blob/b44743032bec12155d62ba832ea6654806a40a15/PROJECT_UDEMY/TASK%203.sql)
+
+4️⃣ TASK 4 : Select last name of user, and total amount of purchases made by this user
+```
+SELECT u.last_name, COUNT(*) AS total_purchase
+FROM user u
+JOIN purchase p
+ON u.id = p.fk_purchase_user
+GROUP BY u.last_name;
+```
+Or See problem 4 [in Here](https://github.com/humairaaryantik-portofolio/humairaaryantik.github.io/blob/b44743032bec12155d62ba832ea6654806a40a15/PROJECT_UDEMY/TASK%204.sql)
+
+5️⃣ TASK 5 : Select last name of user, and total amount of purchases made by this user, only for users who made two or more purchases
+
+```
+
+```
+Or See problem 5 [in Here]
+6️⃣ TASK 6 : Select user last name, and total amount of money user spent in online shop
+
+```
+Or See problem 6 [in Here]
