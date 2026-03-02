@@ -135,7 +135,7 @@ UNLOCK TABLES;
 SELECT * FROM user;
 SHOW TABLES;
 ````
-Or See Task 1 [in Here](https://github.com/humairaaryantik-portofolio/humairaaryantik.github.io/blob/7ca93183b83ce295dfad7c240a74105ba6d77366/TABLE-TABLE.sql)
+Or See Task 1 [in Here](PROJECT_UDEMY/TABLE-TABLE.sql)
 
 #### Output
 
