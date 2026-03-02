@@ -150,4 +150,7 @@ JOIN purchase p
 ON p.fk_purchase_user = u.id
 ORDER BY 1 ASC;
 ```
-Or See problem 1 [in Here](PROJECT_UDEMY/TASK1.sql)
+Or See problem 1 [in Here](https://github.com/humairaaryantik-portofolio/humairaaryantik.github.io/blob/84746cb5971b13c4b3aee1452a8d003533be19fe/PROJECT_UDEMY/TASK%201.sql)
+
+#### Output
+2️⃣ TASK 2 : Select Product Names and purchase ID for each Purchase
