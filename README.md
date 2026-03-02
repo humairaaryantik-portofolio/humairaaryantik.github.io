@@ -1,4 +1,5 @@
-# Udemy Project Homework <h1>
+![image alt]()
+<h1 align="center" = > UDEMY PROJECT HOMEWORK </h1>
 
 I recently completed a SQL homework project from a Udemy course, which consisted of 2 comprehensive problems. These tasks were designed to strengthen my understanding of SQL fundamentals, including data querying, grouping, joins, and aggregation functions.
 
@@ -209,7 +210,7 @@ Or See SQL Syntax problem 1 [in Here](PROJECT_UDEMY/TABLE-TABLE.sql)
 
 
 ### **2. Six SQL tasks to analyze** 
-1️⃣ TASK 1 : Select distinct emails of users who made at least one purchase
+**1️⃣ TASK 1 : Select distinct emails of users who made at least one purchase**
 ```
 SELECT * FROM user;
 SELECT * FROM purchase;
@@ -232,7 +233,7 @@ Or See SQL Syntax Task 1 [in Here](https://github.com/humairaaryantik-portofolio
 |18	|v.leonenko@email.com|
 
 
-2️⃣ TASK 2 : Select Product Names and purchase ID for each Purchase
+**2️⃣ TASK 2 : Select Product Names and purchase ID for each Purchase**
 ```
 SELECT * FROM product;
 SELECT * FROM purchase_product;
@@ -267,7 +268,7 @@ Or See SQL Syntax Task 2 [in Here](https://github.com/humairaaryantik-portofolio
 |Keybord	|24|
 
 
-3️⃣ TASK 3 : Select credit card, and product name
+**3️⃣ TASK 3 : Select credit card, and product name**
 ```
 SELECT u.credit_card, pro.product_name 
 FROM user u 
@@ -328,7 +329,7 @@ Or See SQL Syntax Task 4 [in Here](https://github.com/humairaaryantik-portofolio
 |Leonenko	|2|
 
 
-5️⃣ TASK 5 : Select last name of user, and total amount of purchases made by this user, only for users who made two or more purchases
+**5️⃣ TASK 5 : Select last name of user, and total amount of purchases made by this user, only for users who made two or more purchases**
 
 ```
 SELECT u.last_name, COUNT(*) AS total_purchase
@@ -350,7 +351,7 @@ Or See SQL Syntax Task 5 [in Here](https://github.com/humairaaryantik-portofolio
 |Leonenko|	2|
 
 
-6️⃣ TASK 6 : Select user last name, and total amount of money user spent in online shop
+**6️⃣ TASK 6 : Select user last name, and total amount of money user spent in online shop**
 
 ```
 SELECT CONCAT(u.first_name, ' ', u.last_name) AS fullname, SUM(p.price) AS total_price
@@ -376,3 +377,7 @@ Or See SQL Syntax Task 6 [in Here](https://github.com/humairaaryantik-portofolio
 |John Smith|	3601.55|
 |Yegor Hromov|	2519.78|
 |Vasyl Leonenko|	1123.10|
+
+
+## CREDIT 
+[Humaira Aryanti K](https://github.com)
