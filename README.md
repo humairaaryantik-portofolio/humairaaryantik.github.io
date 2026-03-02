@@ -1,10 +1,10 @@
 # Udemy Project Homework <h1>
 
-I recently completed a SQL homework project from a Udemy course, which consisted of 2 comprehensive tasks. These tasks were designed to strengthen my understanding of SQL fundamentals, including data querying, grouping, joins, and aggregation functions.
+I recently completed a SQL homework project from a Udemy course, which consisted of 2 comprehensive problems. These tasks were designed to strengthen my understanding of SQL fundamentals, including data querying, grouping, joins, and aggregation functions.
 
-Below are the 2 tasks that were completed as part of this SQL project:
-1. Created all tables required for the homework and populated them with the test data
-2. Proceed with the hometasks
+Below are the problems completed as part of this SQL project:
+1. Created all required tables for the homework and populated them with test data.
+2. Completed six SQL tasks to analyze.
       - Select distinct emails of users who made at least one purchase
       - Select Product Names and purchase ID for each Purchase
       - Select credit card, and product name
@@ -135,11 +135,19 @@ UNLOCK TABLES;
 SELECT * FROM user;
 SHOW TABLES;
 ````
-Or See Task 1 [in Here](PROJECT_UDEMY/TABLE-TABLE.sql)
+Or See problem 1 [in Here](PROJECT_UDEMY/TABLE-TABLE.sql)
 
 #### Output
 
-### **2. Proceed with the hometasks** 
-1️⃣ Select distinct emails of users who made at least one purchase
-
-  
+### **2. Six SQL tasks to analyze** 
+1️⃣ TASK 1 : Select distinct emails of users who made at least one purchase
+```
+SELECT * FROM user;
+SELECT * FROM purchase;
+SELECT DISTINCT u.id, u.email 
+FROM user u
+JOIN purchase p 
+ON p.fk_purchase_user = u.id
+ORDER BY 1 ASC;
+```
+Or See problem 1 [in Here](PROJECT_UDEMY/TASK1.sql)
