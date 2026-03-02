@@ -154,5 +154,13 @@ Or See problem 1 [in Here](https://github.com/humairaaryantik-portofolio/humaira
 
 #### Output
 2️⃣ TASK 2 : Select Product Names and purchase ID for each Purchase
+```
+SELECT * FROM product;
+SELECT * FROM purchase_product;
 
+SELECT p.product_name, pi.purchase_id
+FROM product p
+JOIN purchase_product pi
+ON p.id = pi.product_id;
+```
 Or See problem 2 [in Here](https://github.com/humairaaryantik-portofolio/humairaaryantik.github.io/blob/1ebff35b2f6938049db5510b4724dc60c2e05746/PROJECT_UDEMY/TASK%202.sql)
