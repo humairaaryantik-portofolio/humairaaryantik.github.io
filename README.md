@@ -379,12 +379,16 @@ Or See SQL Syntax Task 6 [in Here](https://github.com/humairaaryantik-portofolio
 |Yegor Hromov|	2519.78|
 |Vasyl Leonenko|	1123.10|
 
-<h2 Sertificate of Completion
-	
-<h2 CREDIT 
+</p><h2 align="center" = > CREDIT </h2>
 
 This project was inspired by learning materials and exercises from a Udemy course. The dataset and analysis process were modified and explored independently as part of my data analysis practice.
 
 Special thanks to the course instructors and the learning resources that helped me build this project.
 
 [Humaira Aryanti K](https://github.com)
+
+</p><h2 align="center" = > CERTIFICATE OF COMPLETION </h2>
+<p align="center">
+  <img src="https://github.com/humairaaryantik-portofolio/Project_Udemy/blob/fa8ee98b1f19f2d493c2d3b29a8b34fe034ff98a/Udemy.jpg" alt="image" width="700"/>
+	
+
